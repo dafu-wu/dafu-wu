@@ -1,74 +1,55 @@
-### 🚀 AI Infrastructure Engineer | Building Scalable Systems for Large Models
+# Dafu Wu
 
-[![Gmail Badge](https://img.shields.io/badge/-wucy4328@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:wucy4328@gmail.com)](mailto:wucy4328@gmail.com)
+**AI Infrastructure Engineer**
 
----
-
-<img width="40%" align="right" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
-
-## 👋 About Me
-
-I am an **AI Infrastructure Engineer** focused on building scalable systems for **large-scale model training and inference**.
-
-My work centers around **GPU clusters, distributed training, and cloud-native AI platforms**, helping accelerate the development and deployment of **LLMs and AI systems**.
-
-⚡ **Focus Areas**
-
-- Large-scale **LLM Training Infrastructure**
-- **GPU Cluster Scheduling**
-- **Kubernetes Native AI Platforms**
-- **Distributed Systems for AI workloads**
+Building the systems that make large-scale AI possible — from LLM training clusters to agentic RL training and inference infrastructure.
 
 ---
 
-## 🛠 Tech Stack
+## What I Work On
 
-**Languages**
+**Large-scale LLM Training Infrastructure**
+Led end-to-end design and implementation of cloud-native AI training infrastructure from the ground up, supporting large-scale distributed training across heterogeneous GPU clusters (A100, H100, GB200). Integrated GPU scheduling, high-performance networking, and distributed training frameworks (PyTorch, Ray), achieving high cluster MFU. Drove system-level performance optimization across compute, networking, and storage layers, addressing bottlenecks in NCCL communication, GPU utilization, and I/O throughput in multi-node environments.
 
-<code><img height="40" src="https://www.vectorlogo.zone/logos/golang/golang-icon.svg"></code>
-<code><img height="40" src="https://www.vectorlogo.zone/logos/rust-lang/rust-lang-ar21.svg"></code>
-<code><img height="40" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"></code>
+**GPU Cluster Scheduling**
+Architected a multi-cluster scheduling system spanning 5 GPU clusters, enabling cross-cluster workload orchestration, resource pooling, and improved global utilization. Reviewer and contributor to [Volcano](https://github.com/volcano-sh/volcano) (CNCF), with contributions to gang scheduling, capacity plugin correctness, and DRA resource management.
 
-**AI / Cloud Infrastructure**
+**Kubernetes Native AI Platforms**
+End-to-end ML platform design on Kubernetes: job lifecycle management, GPU affinity, multi-tenancy, autoscaling, and observability. Collaborated across research and engineering teams to bridge model development and infrastructure, accelerating both experimentation and production deployment.
 
-<code><img height="40" src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-ar21.svg"></code>
-
-- Kubernetes
-- GPU Scheduling
-- Distributed Training
-- Cloud Native Infrastructure
+**Agentic RL & Inference Infrastructure**
+Infrastructure for agentic RL training and inference. Integrated RL training frameworks (veRL, AReaL, NeMo-RL) and high-throughput inference engines (vLLM, SGLang) into production platforms. Built a pluggable OSWorld sandbox provider on the training platform, enabling closed-loop RL training pipelines for computer-use agents at scale.
 
 ---
 
-## 🌱 Open Source Contributions
+## Technical Stack
 
-I actively contribute to open source projects in **AI infrastructure and cloud-native ecosystems**.
-
-- ⚡ **Volcano** – Kubernetes batch scheduler for AI/HPC workloads  
-- ⚡ **Kubeflow** – Machine learning platform on Kubernetes  
-- ⚡ **AReaL** – Distributed RL infrastructure for large models  
-- ⚡ **OpenKruise** – Advanced workload management for Kubernetes  
-- ⚡ **Skywalking Python Agent**
-
----
-
-## 📚 Interests
-
-- Distributed Systems
-- LLM Infrastructure
-- Reinforcement Learning Systems
-- Cloud Native AI Platforms
+| Layer | Technologies |
+|---|---|
+| Training Frameworks | PyTorch, Ray |
+| RL Training | veRL, AReaL, NeMo-RL |
+| Inference | vLLM, SGLang |
+| Distributed | NCCL |
+| Orchestration | Kubernetes, Volcano |
+| Hardware | A100, H100, GB200 |
 
 ---
 
-## ⚡ Fun Facts
+## Principles
 
-🏀 Basketball lover  
-📖 Enjoy writing technical articles  
-💡 *Think Twice, Code Once*
+- **Systems thinking first** — AI infrastructure requires deep understanding of the full stack: hardware, networking, runtime, and model architecture.
+- **Measure before optimizing** — bottlenecks in distributed training are rarely where intuition suggests. Profile first, optimize second.
+- **Bridge research and engineering** — collaborate across research and engineering teams to accelerate both experimentation and production deployment.
 
 ---
 
-## 📊 GitHub Stats
+## Open Source
 
-![github stats](https://github-readme-stats.vercel.app/api?username=dafu-wu&show_icons=true)
+- **[volcano-sh/volcano](https://github.com/volcano-sh/volcano)** — Reviewer & Contributor. Core focus on GPU scheduling correctness and scalability for AI workloads.
+- **[volcengine/verl](https://github.com/volcengine/verl)** · **[inclusionAI/AReaL](https://github.com/inclusionAI/AReaL)** · **[NVIDIA/NeMo-RL](https://github.com/NVIDIA/NeMo-RL)** — Contributor. Agentic RL training infrastructure and inference backend stability.
+
+---
+
+## Contact
+
+[GitHub](https://github.com/dafu-wu)
