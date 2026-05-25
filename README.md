@@ -2,7 +2,7 @@
 
 **AI Infrastructure Engineer**
 
-Building the systems that make large-scale AI possible — from LLM training clusters to agentic RL training and inference infrastructure.
+Building the substrate for AI systems that train, reason, and improve themselves — from GPU clusters to agentic RL pipelines.
 
 ---
 
