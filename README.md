@@ -1,4 +1,4 @@
-# Hi, I'm Dafu Wu 👋
+# Hi, I'm Chengyi Wu 👋
 
 ### AI Infrastructure Engineer
 
